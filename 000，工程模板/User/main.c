@@ -3,11 +3,11 @@
   * @author  fire
   * @version V1.0
   * @date    2018-xx-xx
-  * @brief   这是一个[野火]-STM32F103霸道LiteOS移植实验！
+  * @brief   这是一个[野火]-STM32F103全系列LiteOS移植实验！
   ******************************************************************************
   * @attention
   *
-  * 实验平台:野火 F103-霸道 STM32 开发板 
+  * 实验平台:野火 F103-全系列 STM32 开发板 
   * 论坛    :http://www.firebbs.cn
   * 淘宝    :http://firestm32.taobao.com
   *
@@ -48,7 +48,7 @@ int main(void)
 	/* 板载相关初始化 */
   BSP_Init();
 	/* 发送一个字符串 */
-	printf("这是一个[野火]-STM32F103霸道LiteOS移植实验！\n\n");
+	printf("这是一个[野火]-STM32F103全系列LiteOS移植实验！\n\n");
 	/* LiteOS 核心初始化 */
 	uwRet = LOS_KernelInit();
   if (uwRet != LOS_OK)
