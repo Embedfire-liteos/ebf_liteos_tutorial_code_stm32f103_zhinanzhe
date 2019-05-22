@@ -167,7 +167,7 @@ static void LED_Task(void)
   /* 任务都是一个无限循环，不能返回 */
 	while(1)
 	{
-		LED2_TOGGLE;      //LED2翻转
+		LED1_TOGGLE;      //LED2翻转
 		printf("LED任务正在运行！\n");
 		LOS_TaskDelay(1000);	
 	}
